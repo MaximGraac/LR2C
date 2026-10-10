@@ -105,10 +105,10 @@ int lr2task5()
 int main()
 {
     lr2task1();
-    // lr2task2();
-    // lr2task3();
-    // lr2task4();
-    // lr2task5();
+    lr2task2();
+    lr2task3();
+    lr2task4();
+    lr2task5();
 
     return 0;
 }
