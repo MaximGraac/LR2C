@@ -31,11 +31,16 @@ int lr2task2()
 
     printf("45) Enter X: ");
     scanf("%lf", &x);
-
+        if (x==0 || x==-1) {
+        printf("Answer = %.0f", fabs(x));
+        printf("/%.0f\n", fabs(x+1));
+        printf("No resolves");
+        return 0;
+    }
+    else {
     ansf = fabs(x) / fabs(x + 1);
-
     printf("Task 45 = %lf\n", ansf);
-
+    }
     return 0;
 }
 
